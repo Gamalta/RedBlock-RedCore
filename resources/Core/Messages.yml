@@ -1,0 +1,55 @@
+Join: "&a%player% viens de ce connecter"
+Quit: "&c%player% viens de ce déconnecter"
+JoinAdvancement: "%prefix% %player% &7 viens de rejoindre le serveur !"
+CommandDisabled: "cet commande est désactivé dans ce monde"
+
+Launchpads:
+  Created: "vous venez de placez un launchpad"
+  Deleted: "vous venez de cassez un launchpad"
+  List:
+    Empty: "il n'y a pas de launchpad"
+    Title: "Voici la liste des launchpads"
+    Item: "%ID% >> monde: %World%, x:%X%, y: %Y%, z: %Z%, vélocité en X: %VelocityX%, vélocité en Y: %VelocityY%"
+  Usage:
+    Default: "la commande est /launchpad <create/list>"
+    Create: "la commande est /launchpad create velocityX velocityY"
+  Give: "Vous venez de recevoir un launchpad"
+  InventoryFull: "vôtre inventaire est complet"
+  NoPermission:
+    Command: "vous n'avez pas accès à cet commande"
+    Place: "hé malade pk t'a un launchpad"
+    
+KillONoob:
+  Broadcast: "%player% viens de sucomber au kill noob"
+  Give: "kill o noob give"
+  InventoryFull: "tu as l'inventaire plein"
+  Block: "Que le tonère soit"
+  Spam: "Tu dois attendre %Cooldown% secondes avant de pouvoir le réutilisé"                                            #%Cooldown% -> secondes
+  NoPermission:
+    Give: "toi pas droit utiliser commande"
+    Use: "toi pas droit utiliser kill noob"
+    
+Ninja:
+  Reload: "Vous ête maintenant visible par tous les joueurs suite à un reload !"
+  Enable: "Vous venez d'activer le mode &kskinkleroux"
+  Disable: "Vous venez de désactiver le mode &kskinkleroux"
+  CancelDisable: "Vous n'aller pas être retiré du monde ninja"
+  Deactivation: "Vous aller être visible par tous les joueurs dans %cooldown% secondes"
+  NoPermission: "toi pas perm ça x)"
+  Vanish: "vôtre vanish viens d'être désactiver"
+  Chat: "vous ne pouvez pas parler dans le chat en mode ninja"
+  Chat: "vous ne pouvez pas utiliser cet command en mode ninja"
+  
+Vanish:                                                      
+  Reload: "Vous ête maintenant visible par tous les joueurs suite à un reload !"  
+  Enable: "Vous ête maintenant invisible pour les autres joueurs"                                                         
+  Disable: "Vous ête maintenant visible par tous les autres joueurs"    
+  CancelDisable: "Vous n'aller pas être retiré du vanish"
+  Deactivation: "Vous aller être visible par tous les joueurs dans %cooldown% secondes"                                                   
+  NoPermission: "toi pas perm ça x)"
+  Ninja: "Vous ne pouvez pas activer vôtre vanish car vous ête en mode &kskinkleroux"
+
+Osgarod:
+  NoPermission: "toi pas perm ça x)"
+
+  

@@ -1,0 +1,110 @@
+Mention:
+  Sender:
+    ActionBar: "Vous venez de messionnez %target%"
+    Sound:
+      Type: ENTITY_LLAMA_ANGRY
+      Volume: 100
+      Pitch: 100
+  Target:
+    ActionBar: "vous venez d'être messionnez par %sender%"
+    Sound:
+      Type: ENTITY_LLAMA_ANGRY
+      Volume: 100
+      Pitch: 100
+  Color:                                   #grade dans la config de deluxeChat
+    default: "&7 @%player% &f"
+    Gradés: "&7 @%player% &f"
+    Guide: "&3 @%player% &b"
+    Modérateur: "&2 @%player% &a"
+    HauteMod: "&4 @%player% &c"
+    Admin: "&4 @%player% &c"
+    Fondateur: "&6&l&o %mention% &e&l&o"
+  
+Ninja: 
+  Cooldown: 5                                                                            #Temps pour désactiver le mode ninja en seconde !
+  Suffix: " &a[Ninja]"                                                                   #suffix {osgarod_suffix} -> animatedNames
+Vanish:
+  Cooldown: 5                                                                            #Temps pour désactiver le vanish en seconde !
+  Suffix: " &a[Vanish]"                                                                   #suffix {osgarod_suffix} -> animatedNames
+
+Launchpad:
+  Particles:
+    Type: NAUTILUS
+    Amount: 10
+  Cooldown: 5                                                                            #Temps entre deux saut via lauchpad en Seconde !
+  Sound: BLOCK_ANVIL_BREAK
+  Item:
+    Type: GOLD_BLOCK
+    Name: "Launchpad %VelocityX% %VelocityY%"
+    
+KillONoob:
+  Cooldown: 5                                                                            #Temps entre deux utilisation du KillONoob en Seconde !
+  Item:
+    Type: "BLAZE_ROD"
+    Amount: 1
+    Name: "&cKill&6'&bo &enoob"
+    Lores:
+      - "&7À mort les noobs !"
+    Enchantments:
+      unbreaking: 1
+    ItemFlags:
+      - HIDE_ENCHANTS
+    IsUnbreakable: false
+    Stackable: false
+  Sound:
+      Type: ENTITY_BLAZE_DEATH
+      Volume: 100
+      Pitch: 100   
+
+AutomaticMessage:
+  Time: 5                                                                              #Temps entre deux messages automatiques en Minute !
+  Message:
+    '1':
+      Message: "message automatic 1"
+      Sound:
+        Type: BLOCK_ANVIL_HIT
+        Volume: 100
+        Pitch: 100  
+    '2':
+      Message: "message automatic 2"
+
+NinjaCommandDisable:
+  - "msg"
+  - "m"
+  - "tell"
+  - "t"
+  - "whisper"
+  - "w"
+  - "r"
+  - "reply"
+
+Worlds:
+  'spawn':
+    Disable:
+      '1':
+        Command: "heal"
+        Permission: "osgarod.spawn.heal.bypass"
+    Execute:                                                                           #si "null" la commande est executé tous le temps sinon si il a la perm donné
+      '1':
+        Command: "fly %player% on"
+        Permission: "essentials.fly"
+      '2': 
+        Command: "god %player% on"
+        Permission: "essentials.god"
+        
+        
+TabCommand:
+  '1':
+    Command: "/afk"
+    Permission: "essentials.afk"      
+  '2':
+    Command: "/antioch"
+    Permission: "essentials.antioch"
+      
+      
+      
+      
+      
+      
+      
+      

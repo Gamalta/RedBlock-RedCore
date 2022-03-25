@@ -1,0 +1,18 @@
+Launchpads:
+  Give: osgarod.command.launchpad
+  Place: osgarod.launchpad.place
+  Delete: osgarod.launchpad.delete
+  
+KillONoob:
+  Give: osgarod.command.killonoob
+  Use: osgarod.killonoob.use
+  
+Ninja:
+  Use: osgarod.command.ninja
+  View: osgarod.ninja.view
+  
+Vanish:
+  Use: "osgarod.command.vanish"
+  View: "osgarod.vanish.view"
+
+JoinAdvancement: osgarod.join.advancement

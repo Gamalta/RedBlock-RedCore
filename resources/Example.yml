@@ -1,0 +1,89 @@
+Les Items:
+
+#-------------#
+Item: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html (si tu veux juste créer un item sans aucune personnasilation)
+#-------------#
+Item:
+  Type: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+  Name: “Nom de l’item”                                     #optional (default comme les items de base)
+  Enchantments:                                             #optional
+     https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html: Level
+     unbreaking: 3                                          #example
+  Lores:                                                    #optional
+    -  “1ère ligne de lore”
+  ItemFlags:                                                #optional
+    - https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html
+  Amount: 1                                                 #optional (default 1)
+  Durability: 10                                            #optional (si le “type” est un outil ou une armure)
+  HeadOwner: “Gamalta”                                      #optional (si le “type” est PLAYER_HEAD)
+  IsUnbreakable: true                                       #optional (default false)
+  Stackable: true                                           #optional (default true)
+
+  CustomModelData: 100                                      #optional (pour customiser la texture de l'item)
+  Block: RED_MUSHROOM_BLOCK                                 #optional (bloc modifié pour ajouter la texture)
+  Facing:                                                   #optional (pour customiser la texture du bloc)
+    Up: true                                                #optional (default true)
+    Down: true                                              #optional (default true)
+    North: true                                             #optional (default true)
+    South: true                                             #optional (default true)
+    West: true                                              #optional (default true)
+    East: true                                              #optional (default true)
+#-------------#
+
+
+
+
+
+Les Messages:
+
+
+#-------------#
+Message: “ceci est mon message en 1 seul ligne”
+#-------------#
+Messge:
+  - “messge première ligne”
+  - “messge senconde ligne”
+#-------------#
+Message:
+  Text:
+    - “&cceci est mon message %variant1%”
+  Variants:                                                 #optional
+    '%variant1%':
+      Text: "&c&l click ici"
+      Hover: “text quand la souris est dessus”            #optional
+      Action: https://ci.md-5.net/job/BungeeCord/ws/chat/target/apidocs/net/md_5/bungee/api/chat/ClickEvent.Action.html #optional (CHANGE_PAGE ne marche pas (c’est que dans les livres)) si tu ne mets pas Action enlève aussi  RESULT ils sont dépendants l’un de l’autre (action c’est quand la variant est clické)
+      Result: "result"
+#-------------#
+
+
+
+
+
+
+Les Sons:
+
+
+#-------------#
+Sound: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html (si tu veux créer un son simple sans modifié son volume est son pitch)
+#-------------#
+Sound:
+  Type: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+  Volume: 100                                               #optional en %
+  Pitch: 100                                                #optional en %
+#-------------#
+
+
+
+
+
+Les Titles:
+
+
+#-------------#
+Title:
+  Title: “text”
+  SubTitle: “subtitle”
+  FadeIn: 10                                                #optinal en seconde temps d’apparaition du title
+  Stay: 10                                                  #optinal en sencode temps que reste le title
+  FadeOut: 10                                               #optinal en seconde temps de disparaition du title
+#-------------#

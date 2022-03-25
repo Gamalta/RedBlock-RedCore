@@ -1,0 +1,11 @@
+name: RedCore
+main: fr.gamalta.redblock.core.RedCore
+version: 1.0
+author: Gamalta
+api-version: 1.16
+softdepend: [powerfulperms, MVdWPlaceholderAPI]
+depend: [PlaceholderAPI, DeluxeChat]
+commands:
+  launchpad:
+  killonoob:
+  ninja:
